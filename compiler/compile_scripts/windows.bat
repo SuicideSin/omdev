@@ -1,1 +1,1 @@
-echo %1%
+echo "Received Path: " %1%

@@ -1,0 +1,29 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE KILLRING SYSTEM "killring.dtd">
+<KILLRING>
+<ENTRY>
+else
+	Macros.message(view,"linux");</ENTRY>
+<ENTRY>Get Operating s</ENTRY>
+<ENTRY>Macros.message(view,"mac");</ENTRY>
+<ENTRY>linux</ENTRY>
+<ENTRY>Macros.message(view,"windows");</ENTRY>
+<ENTRY>String </ENTRY>
+<ENTRY>String </ENTRY>
+<ENTRY>sh</ENTRY>
+<ENTRY>+"osihdfosdnbf"</ENTRY>
+<ENTRY>compile_</ENTRY>
+<ENTRY>age</ENTRY>
+<ENTRY>t</ENTRY>
+<ENTRY>sS</ENTRY>
+<ENTRY>dd</ENTRY>
+<ENTRY>F</ENTRY>
+<ENTRY>command</ENTRY>
+<ENTRY>code_directory
+</ENTRY>
+<ENTRY>
+
+Macros.message(view,command);</ENTRY>
+<ENTRY>Showing </ENTRY>
+<ENTRY>h</ENTRY>
+</KILLRING>

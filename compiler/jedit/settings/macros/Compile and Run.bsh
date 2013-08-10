@@ -1,0 +1,30 @@
+//Save Current File
+buffer.save(view,null,true);
+    
+//Get File Paths
+String script_path=jEdit.getJEditHome();
+String code_directory=buffer.getDirectory();
+String code_path=buffer.getPath();
+
+//CD To Project Directory
+runInSystemShell(view,"cd "+code_directory);
+
+//Determine OS Compile Script
+String script="linux.sh";
+
+if(OperatingSystem.isMacOS())
+	script="mac.sh";
+else if(OperatingSystem.isWindows())
+	script="windows.bat";
+
+//Create Script Command
+String command=script_path+"/../compile_scripts/"+script+" "+code_path;
+
+//Clear Console Log
+import console.Shell;
+view.getDockableWindowManager().addDockableWindow("console");
+console = view.getDockableWindowManager().getDockable("console");
+console.clear();
+
+//Run Script Command
+runInSystemShell(view,command);

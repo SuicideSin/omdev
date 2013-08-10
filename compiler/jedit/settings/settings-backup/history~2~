@@ -1,0 +1,86 @@
+[console.BeanShell]
+ls
+[vfs.browser.path]
+/home/null
+/home/null/programming/graphics/omdev/compiler/compile_scripts
+/home/null/programming/graphics/omdev/compiler
+/home/null/programming/graphics/omdev/compiler/jedit/settings/macros
+/home/null/programming/graphics/omdev/compiler/jedit
+/home/null/programming/graphics/omdev
+/home/null/programming/graphics
+/home/null/programming
+/home/null/programming/graphics/omdev/jedit/settings/macros
+/home
+/home/null/programming/graphics/omdev/jedit
+/home/null/programming/graphics/omdev/jedit/settings
+/home/null/test.cpp
+/home/null/.jedit/macros
+[search.filter]
+*.bsh
+[vfs.browser.filter]
+*\[^~#\]
+[action]
+Compile_and_Run
+plugin-options
+combined-options
+open-file
+close-buffer
+save
+undo
+compiler
+backspace
+paste
+copy
+insert-newline-indent
+next-char
+delete
+insert-tab-indent
+prev-line
+redo
+global-options
+goto-marker
+next-line
+[clipboard]
+code_directory
+runInSystemShell(view,command);
+//Run Script Command\nrunInSystemShell(view,command);
+String script=\"compile_linux.sh\";
+if(OperatingSystem.isMacOS())\n\tMacros.message(view,\"mac\");\nelse if(OperatingSystem.isWindows())\n\tMacros.message(view,\"windows\");\nelse\n\tMacros.message(view,\"linux\");
+OperatingSystem
+Macros.message(view,\"mac\");
+isWindows
+jEdit.isMacOS()
+ \tisMacOS(
+code_path
+import console.Shell;\n\t \n\tview.getDockableWindowManager().addDockableWindow(\"console\");\n\tconsole = view.getDockableWindowManager().getDockable(\"console\");\n\tconsole.clear();\n}
+clearConsole(View view)\n{\nimport console.Shell;\n \nview.getDockableWindowManager().addDockableWindow(\"console\");\nconsole = view.getDockableWindowManager().getDockable(\"console\");\nconsole.clear();\n}
+clearConsole
+Macros
+command
+Macro
+clearConsole(view);\nrunInSystemShell( view, command);
+clearConsole(view);\n        runInSystemShell( view, command);
+buffer.save(view,null,true);
+[console.System]
+/home/null/programming/graphics/omdev/compiler/jedit/../compile_scripts/linux.sh /home/null/test.cpp
+cd /home/null/
+/home/null/programming/graphics/omdev/compiler/jedit/../compile_scripts/linux.sh /home/null/programming/graphics/omdev/compiler/compile_scripts/linux.sh
+cd /home/null/programming/graphics/omdev/compiler/compile_scripts/
+/home/null/programming/graphics/omdev/compiler/jedit/../compile_scripts/linux.sh /home/null/programming/graphics/omdev/compiler/jedit/settings/macros/compiler.bsh
+cd /home/null/programming/graphics/omdev/compiler/jedit/settings/macros/
+cd 
+/home/null/programming/graphics/omdev/compiler/jedit/../compile_linux.sh /home/null/programming/graphics/omdev/compiler/jedit/settings/macros/compiler.bsh
+/home/null/programming/graphics/omdev/compiler/jedit/../compile_linux.sh /home/null/test.cpp
+/home/null/programming/graphics/omdev/jedit/../compile_linux.sh /home/null/test.cpp
+/home/null/programming/graphics/omdev/jedit/../compile_linux.sh /home/null/programming/graphics/omdev/jedit/settings/macros/compiler.bsh
+/home/null/programming/graphics/omdev/jedit/../compile_linux.sh /home/null/programming/graphics/omdev/jedit/settings/macros/compiler.bshosihdfosdnbf
+/home/null/programming/graphics/omdev/jedit/../compile_linux.sh /home/null/programming/graphics/omdev/jedit/settings/macros/compiler.bshvoid
+/home/null/programming/graphics/omdev/jedit../compile_linux.sh /home/null/programming/graphics/omdev/jedit/settings/macros/compiler.bsh
+/home/null/programming/graphics/omdev/jedit/compile_linux.sh /home/null/programming/graphics/omdev/jedit/settings/macros/compiler.bsh
+/home/null/programming/graphics/omdev/jedit/compile.sh /home/null/programming/graphics/omdev/jedit/settings/macros/compiler.bsh
+g++
+/home/null/programming/graphics/omdev/jeditg++
+/home/null/programming/graphics/omdev/jedit/g++
+/home/null/programming/graphics/omdev/jedit/compile.sh test1
+[search.directory]
+/home/null/programming/graphics/omdev/jedit/settings/macros/

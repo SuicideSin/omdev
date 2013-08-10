@@ -1,1 +1,1 @@
-cd jedit && jedit.jar -settings=settings
+cd compiler/jedit && jedit.jar -settings=settings

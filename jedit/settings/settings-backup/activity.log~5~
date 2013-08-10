@@ -1,0 +1,302 @@
+Log file created on Sat Aug 10 00:27:51 AKDT 2013
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+12:27:51 AM [main] [message] Log: When reporting bugs, please include the following information:
+12:27:51 AM [main] [message] Log: java.version=1.7.0_21
+12:27:51 AM [main] [message] Log: java.vm.version=23.7-b01
+12:27:51 AM [main] [message] Log: java.vm.name=OpenJDK 64-Bit Server VM
+12:27:51 AM [main] [message] Log: java.runtime.version=1.7.0_21-b02
+12:27:51 AM [main] [message] Log: java.runtime.name=OpenJDK Runtime Environment
+12:27:51 AM [main] [message] Log: java.vendor=Oracle Corporation
+12:27:51 AM [main] [message] Log: java.compiler=null
+12:27:51 AM [main] [message] Log: os.name=Linux
+12:27:51 AM [main] [message] Log: os.version=3.8.0-25-generic
+12:27:51 AM [main] [message] Log: os.arch=amd64
+12:27:51 AM [main] [message] Log: user.home=/home/null
+12:27:51 AM [main] [message] Log: java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+12:27:51 AM [main] [message] Log: java.class.path=jedit.jar
+12:27:51 AM [main] [message] jEdit: starting with command line arguments: 
+12:27:51 AM [main] [debug] jEdit: before splash screen activation:119 ms
+12:27:51 AM [main] [debug] jEdit: after splash screen activation:355 ms
+12:27:51 AM [main] [notice] jEdit: jEdit version 5.1.0
+12:27:51 AM [main] [message] jEdit: Settings directory is /home/null/.jedit
+12:27:51 AM [main] [message] jEdit: jEdit home directory is /home/null/testing
+12:27:51 AM [main] [debug] SplashScreen: init:41/268ms
+12:27:51 AM [main] [debug] SplashScreen: init system properties:24/292ms
+12:27:51 AM [main] [message] BeanShell: Beanshell Init
+12:27:51 AM [main] [debug] SplashScreen: init beanshell:26/318ms
+12:27:51 AM [main] [debug] SplashScreen: loading site properties:1/319ms
+12:27:51 AM [main] [debug] SplashScreen: loading user properties:2/321ms
+12:27:51 AM [main] [debug] GUIUtilities: Icon theme set to: tango
+12:27:51 AM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+12:27:51 AM [main] [debug] SplashScreen: init GUI:3/324ms
+12:27:51 AM [main] [debug] EditServer: jEdit server started on port 34125
+12:27:51 AM [main] [debug] EditServer: Authorization key is 1326109055
+12:27:51 AM [main] [debug] SplashScreen: init server:10/334ms
+12:27:51 AM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+12:27:51 AM [main] [warning] jEdit: initPLAF failed to set required l&f
+12:27:51 AM [main] [debug] SplashScreen: init look and feel:4/338ms
+12:27:51 AM [main] [debug] SplashScreen: init VFS Manager:1/339ms
+12:27:51 AM [main] [debug] ActionSet: Loading actions from jar:file:/home/null/testing/jedit.jar!/org/gjt/sp/jedit/actions.xml
+12:27:51 AM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/home/null/testing/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+12:27:51 AM [main] [debug] SplashScreen: init resources:83/422ms
+12:27:51 AM [main] [debug] KeymapManagerImpl: copyKeymap(jEdit,imported)
+12:27:51 AM [main] [debug] KeymapManagerImpl: Copying /home/null/testing/keymaps/jEdit_keys.props to /home/null/.jedit/keymaps/imported_keys.props
+12:27:51 AM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+12:27:51 AM [main] [debug] SplashScreen: Migrate keymaps:51/473ms
+12:27:51 AM [main] [notice] jEdit: Loading plugins from /home/null/testing/jars
+12:27:51 AM [main] [debug] PluginJAR: Opening /home/null/testing/jars/QuickNotepad.jar
+12:27:51 AM [main] [debug] ActionSet: Loading actions from jeditresource:/QuickNotepad.jar!/actions.xml
+12:27:51 AM [main] [debug] DockableWindowManager: Loading dockables from jeditresource:/QuickNotepad.jar!/dockables.xml
+12:27:51 AM [main] [debug] PluginJAR: Writing /home/null/.jedit/jars-cache/QuickNotepad.jar.summary
+12:27:51 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=/home/null/testing/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+12:27:51 AM [main] [notice] jEdit: Loading plugins from /home/null/.jedit/jars
+12:27:51 AM [main] [debug] SplashScreen: init plugins:20/493ms
+12:27:51 AM [main] [debug] SplashScreen: init history model:4/497ms
+12:27:51 AM [main] [debug] SplashScreen: init buffer history:4/501ms
+12:27:51 AM [main] [debug] SplashScreen: init killring:2/503ms
+12:27:51 AM [main] [message] CheckFileStatus: Performing migration step: checkFileStatus
+12:27:51 AM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+12:27:51 AM [main] [warning] jEdit: initPLAF failed to set required l&f
+12:27:51 AM [main] [debug] jEdit: SOCKS proxy disabled
+12:27:51 AM [main] [debug] jEdit: HTTP proxy disabled
+12:27:51 AM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+12:27:51 AM [main] [debug] SplashScreen: init various properties:81/584ms
+12:27:51 AM [main] [message] jEdit: Loading mode catalog file /home/null/testing/modes/catalog
+12:27:51 AM [main] [message] jEdit: Loading mode catalog file /home/null/.jedit/modes/catalog
+12:27:51 AM [main] [debug] SplashScreen: init modes:58/642ms
+12:27:51 AM [main] [debug] SplashScreen: activate plugins:5/647ms
+12:27:51 AM [main] [debug] Macros: Registered beanshell macro handler
+12:27:51 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+12:27:51 AM [main] [message] BeanShell: Running script /home/null/testing/startup/startup.bsh
+12:27:51 AM [main] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/text.xml
+12:27:51 AM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+12:27:51 AM [main] [debug] SplashScreen: init macros:118/765ms
+12:27:51 AM [main] [debug] SplashScreen: init macros:118/765ms
+12:27:51 AM [main] [debug] SplashScreen: init macros:119/766ms
+12:27:51 AM [main] [debug] jEdit: main done:911 ms
+12:27:51 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/)]
+12:27:51 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/)]
+12:27:51 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/)]
+12:27:51 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/)]
+12:27:52 AM [AWT-EventQueue-0] [debug] BufferSet: 212824477: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+12:27:52 AM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+12:27:52 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: null
+12:27:52 AM [AWT-EventQueue-0] [debug] BufferSet: 212824477 addBufferAt(Untitled-1 (~/),-1)
+12:27:52 AM [AWT-EventQueue-0] [debug] BufferSet: 212824477: Buffer added Untitled-1 (~/) at 0
+12:27:52 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+12:27:52 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+12:27:52 AM [jEdit Worker #0] [notice] HelpTOCPanel: The API docs for jEdit will not be available (reinstall jEdit if you want them)
+12:27:52 AM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+12:27:52 AM [AWT-EventQueue-0] [message] jEdit: Startup complete: 1448 ms
+12:27:52 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:27:52 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:27:52 AM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+12:27:54 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:27:54 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:27:55 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:28:01 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:28:02 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-1 (~/)]
+12:28:04 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:28:06 AM [AWT-EventQueue-0] [debug] ActionSet: Loading actions from jar:file:/home/null/testing/jedit.jar!/org/gjt/sp/jedit/browser.actions.xml
+12:28:10 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/)]
+12:28:10 AM [AWT-EventQueue-0] [debug] FileVFS: /home/null/Untitled-1 has permissions 00
+12:28:10 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:28:10 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:28:10 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/cplusplus.xml
+12:28:10 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/c.xml
+12:28:10 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/doxygen.xml
+12:28:10 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/xml.xml
+12:28:10 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/xml.xml
+12:28:10 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/doxygen.xml
+12:28:10 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/xml.xml
+12:28:10 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/c.xml
+12:28:10 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/doxygen.xml
+12:28:10 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/xml.xml
+12:28:10 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/)]
+12:28:10 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/)]
+12:28:10 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/)]
+12:28:10 AM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null,source=null]
+12:28:10 AM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/#test.cpp#save#,source=null]
+12:28:10 AM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/test.cpp,source=null]
+12:28:11 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:28:31 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:28:31 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:28:31 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:28:31 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:28:43 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:28:43 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:28:43 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:28:46 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:28:49 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:28:49 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:28:49 AM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+12:28:50 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=test.cpp (~/)]
+12:28:51 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:28:51 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:28:55 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=5.0,source=/home/null/testing/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+12:29:05 AM [AWT-EventQueue-0] [debug] jEdit: initPLAF edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=com.sun.java.swing.plaf.gtk.GTKLookAndFeel new=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
+12:29:05 AM [AWT-EventQueue-0] [debug] jEdit: SOCKS proxy disabled
+12:29:05 AM [AWT-EventQueue-0] [debug] jEdit: HTTP proxy disabled
+12:29:05 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/)]
+12:29:05 AM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+12:29:05 AM [AWT-EventQueue-0] [message] HistoryModel: Saving history
+12:29:05 AM [AWT-EventQueue-0] [message] BufferHistory: Saving /home/null/.jedit/recent.xml
+12:29:05 AM [AWT-EventQueue-0] [message] KillRing: Saving /home/null/.jedit/killring.xml
+12:29:30 AM [AWT-EventQueue-0] [debug] jEdit: SOCKS proxy disabled
+12:29:30 AM [AWT-EventQueue-0] [debug] jEdit: HTTP proxy disabled
+12:29:30 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/)]
+12:29:30 AM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+12:29:30 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/abbrevs" to "/home/null/.jedit/settings-backup/abbrevs~1~"
+12:29:30 AM [AWT-EventQueue-0] [message] BufferHistory: Saving /home/null/.jedit/recent.xml
+12:29:30 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/recent.xml" to "/home/null/.jedit/settings-backup/recent.xml~1~"
+12:29:30 AM [AWT-EventQueue-0] [message] KillRing: Saving /home/null/.jedit/killring.xml
+12:29:30 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/killring.xml" to "/home/null/.jedit/settings-backup/killring.xml~1~"
+12:29:30 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/properties" to "/home/null/.jedit/settings-backup/properties~1~"
+12:29:32 AM [AWT-EventQueue-0] [debug] jEdit: SOCKS proxy disabled
+12:29:32 AM [AWT-EventQueue-0] [debug] jEdit: HTTP proxy disabled
+12:29:32 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/)]
+12:29:32 AM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+12:29:32 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/abbrevs" to "/home/null/.jedit/settings-backup/abbrevs~1~"
+12:29:32 AM [AWT-EventQueue-0] [message] BufferHistory: Saving /home/null/.jedit/recent.xml
+12:29:32 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/recent.xml" to "/home/null/.jedit/settings-backup/recent.xml~1~"
+12:29:32 AM [AWT-EventQueue-0] [message] KillRing: Saving /home/null/.jedit/killring.xml
+12:29:32 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/killring.xml" to "/home/null/.jedit/settings-backup/killring.xml~1~"
+12:29:32 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/properties" to "/home/null/.jedit/settings-backup/properties~1~"
+12:29:32 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:29:32 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:29:32 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:29:35 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/)]
+12:29:35 AM [AWT-EventQueue-0] [debug] FileVFS: /home/null/test.cpp has permissions 0664
+12:29:35 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/)]
+12:29:35 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/)]
+12:29:35 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/)]
+12:29:35 AM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null,source=null]
+12:29:35 AM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/#test.cpp#save#,source=null]
+12:29:35 AM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/test.cpp,source=null]
+12:29:39 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:29:47 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=test.html (~/)]
+12:29:47 AM [AWT-EventQueue-0] [debug] BufferSet: 212824477 addBufferAt(test.html (~/),-1)
+12:29:47 AM [AWT-EventQueue-0] [debug] BufferSet: 212824477: Buffer added test.html (~/) at 1
+12:29:47 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=test.html (~/)]
+12:29:47 AM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:29:47 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:29:47 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:29:47 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/html.xml
+12:29:47 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/css.xml
+12:29:47 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/javascript.xml
+12:29:47 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/javascript.xml
+12:29:47 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/coffeescript.xml
+12:29:47 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/javascript.xml
+12:29:47 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/python.xml
+12:29:47 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/ruby.xml
+12:29:47 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/vbscript.xml
+12:29:47 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/xq.xml
+12:29:47 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/xml.xml
+12:29:47 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/css.xml
+12:29:47 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/javascript.xml
+12:29:47 AM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/testing/modes/javascript.xml
+12:29:47 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.html (~/)]
+12:29:47 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=test.html (~/)]
+12:29:47 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:29:47 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:29:47 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:29:49 AM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:29:49 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:29:49 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:29:49 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: test.cpp (~/)
+12:29:49 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:29:51 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/perspective.xml" to "/home/null/.jedit/settings-backup/perspective.xml~1~"
+12:30:01 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:30:01 AM [AWT-EventQueue-0] [debug] BufferSet: 1055170650: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+12:30:01 AM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+12:30:01 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: null
+12:30:01 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:30:01 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+12:30:01 AM [AWT-EventQueue-0] [debug] BufferSet: 1055170650 addBufferAt(test.cpp (~/),0)
+12:30:01 AM [AWT-EventQueue-0] [debug] BufferSet: 1055170650 addBufferAt(test.cpp (~/),1)
+12:30:01 AM [AWT-EventQueue-0] [debug] BufferSet: 1055170650 addBufferAt(test.html (~/),2)
+12:30:01 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[inactive]]
+12:30:01 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:30:01 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:30:01 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:30:01 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:30:01 AM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+12:30:02 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+12:30:02 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:30:02 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+12:30:02 AM [AWT-EventQueue-0] [debug] BufferSet: 1055170650: Buffer removed test.cpp (~/)
+12:30:02 AM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:30:02 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:30:02 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: test.html (~/)
+12:30:02 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:30:02 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:30:02 AM [AWT-EventQueue-0] [debug] BufferSet: 1055170650: Buffer removed test.html (~/)
+12:30:02 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:30:02 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:30:02 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:30:03 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:30:21 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/perspective.xml" to "/home/null/.jedit/settings-backup/perspective.xml~1~"
+12:30:22 AM [AWT-EventQueue-0] [debug] jEdit: SOCKS proxy disabled
+12:30:22 AM [AWT-EventQueue-0] [debug] jEdit: HTTP proxy disabled
+12:30:22 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/)]
+12:30:22 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.html (~/)]
+12:30:22 AM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+12:30:22 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/abbrevs" to "/home/null/.jedit/settings-backup/abbrevs~1~"
+12:30:22 AM [AWT-EventQueue-0] [message] HistoryModel: Saving history
+12:30:22 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/history" to "/home/null/.jedit/settings-backup/history~1~"
+12:30:22 AM [AWT-EventQueue-0] [message] BufferHistory: Saving /home/null/.jedit/recent.xml
+12:30:22 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/recent.xml" to "/home/null/.jedit/settings-backup/recent.xml~1~"
+12:30:22 AM [AWT-EventQueue-0] [message] KillRing: Saving /home/null/.jedit/killring.xml
+12:30:22 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/killring.xml" to "/home/null/.jedit/settings-backup/killring.xml~1~"
+12:30:22 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/properties" to "/home/null/.jedit/settings-backup/properties~1~"
+12:30:25 AM [jEdit Worker #3] [notice] MirrorList: Loading mirror list from cache
+12:31:14 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:31:14 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:31:14 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:31:17 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:31:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=test.cpp (~/)]
+12:31:23 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:31:24 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:31:26 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:31:27 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:31:28 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:31:28 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:31:36 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:31:36 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/)]
+12:31:36 AM [AWT-EventQueue-0] [debug] FileVFS: /home/null/test.cpp has permissions 0664
+12:31:36 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/)]
+12:31:36 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/)]
+12:31:36 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/)]
+12:31:36 AM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null,source=null]
+12:31:36 AM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/#test.cpp#save#,source=null]
+12:31:36 AM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/test.cpp,source=null]
+12:31:38 AM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+12:31:38 AM [AWT-EventQueue-0] [message] PerspectiveManager: Saving /home/null/.jedit/perspective.xml
+12:31:38 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/perspective.xml" to "/home/null/.jedit/settings-backup/perspective.xml~1~"
+12:31:38 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:31:38 AM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+12:31:38 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+12:31:38 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:31:38 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+12:31:38 AM [AWT-EventQueue-0] [debug] BufferSet: 212824477: Buffer removed test.cpp (~/)
+12:31:38 AM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:31:38 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:31:38 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:31:38 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: test.html (~/)
+12:31:38 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:31:38 AM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:test.cpp (~/) is in no bufferSet anymore, closing it
+12:31:38 AM [AWT-EventQueue-0] [debug] BufferSet: 212824477: Buffer removed test.html (~/)
+12:31:38 AM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:test.html (~/) is in no bufferSet anymore, closing it
+12:31:38 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=5.0,source=/home/null/testing/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+12:31:38 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=/home/null/testing/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+12:31:38 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/abbrevs" to "/home/null/.jedit/settings-backup/abbrevs~1~"
+12:31:38 AM [AWT-EventQueue-0] [message] HistoryModel: Saving history
+12:31:38 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/history" to "/home/null/.jedit/settings-backup/history~1~"
+12:31:38 AM [AWT-EventQueue-0] [message] BufferHistory: Saving /home/null/.jedit/recent.xml
+12:31:38 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/recent.xml" to "/home/null/.jedit/settings-backup/recent.xml~1~"
+12:31:38 AM [AWT-EventQueue-0] [message] KillRing: Saving /home/null/.jedit/killring.xml
+12:31:38 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/killring.xml" to "/home/null/.jedit/settings-backup/killring.xml~1~"
+12:31:38 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/.jedit/properties" to "/home/null/.jedit/settings-backup/properties~1~"

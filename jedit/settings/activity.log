@@ -1,0 +1,94 @@
+Log file created on Sat Aug 10 01:47:17 AKDT 2013
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+1:47:17 AM [main] [message] Log: When reporting bugs, please include the following information:
+1:47:17 AM [main] [message] Log: java.version=1.7.0_21
+1:47:17 AM [main] [message] Log: java.vm.version=23.7-b01
+1:47:17 AM [main] [message] Log: java.vm.name=OpenJDK 64-Bit Server VM
+1:47:17 AM [main] [message] Log: java.runtime.version=1.7.0_21-b02
+1:47:17 AM [main] [message] Log: java.runtime.name=OpenJDK Runtime Environment
+1:47:17 AM [main] [message] Log: java.vendor=Oracle Corporation
+1:47:17 AM [main] [message] Log: java.compiler=null
+1:47:17 AM [main] [message] Log: os.name=Linux
+1:47:17 AM [main] [message] Log: os.version=3.8.0-25-generic
+1:47:17 AM [main] [message] Log: os.arch=amd64
+1:47:17 AM [main] [message] Log: user.home=/home/null
+1:47:17 AM [main] [message] Log: java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+1:47:17 AM [main] [message] Log: java.class.path=/home/null/programming/graphics/omdev/jedit/jedit.jar
+1:47:17 AM [main] [message] jEdit: starting with command line arguments: -settings=settings
+1:47:17 AM [main] [debug] jEdit: before splash screen activation:82 ms
+1:47:17 AM [main] [debug] jEdit: after splash screen activation:82 ms
+1:47:17 AM [main] [debug] MiscUtilities: Saving backup of file "/home/null/programming/graphics/omdev/jedit/settings/activity.log" to "/home/null/programming/graphics/omdev/jedit/settings/settings-backup/activity.log~1~"
+1:47:17 AM [main] [notice] jEdit: jEdit version 5.1.0
+1:47:17 AM [main] [message] jEdit: Settings directory is /home/null/programming/graphics/omdev/jedit/settings
+1:47:17 AM [main] [message] jEdit: jEdit home directory is /home/null/programming/graphics/omdev/jedit
+1:47:17 AM [main] [message] BeanShell: Beanshell Init
+1:47:17 AM [main] [debug] GUIUtilities: Icon theme set to: tango
+1:47:17 AM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+1:47:17 AM [main] [debug] EditServer: jEdit server started on port 43448
+1:47:17 AM [main] [debug] EditServer: Authorization key is 263177861
+1:47:17 AM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=com.sun.java.swing.plaf.gtk.GTKLookAndFeel new=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
+1:47:17 AM [main] [debug] ActionSet: Loading actions from jar:file:/home/null/programming/graphics/omdev/jedit/jedit.jar!/org/gjt/sp/jedit/actions.xml
+1:47:17 AM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/home/null/programming/graphics/omdev/jedit/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+1:47:17 AM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+1:47:17 AM [main] [notice] jEdit: Loading plugins from /home/null/programming/graphics/omdev/jedit/jars
+1:47:17 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=/home/null/programming/graphics/omdev/jedit/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+1:47:17 AM [main] [notice] jEdit: Loading plugins from /home/null/programming/graphics/omdev/jedit/settings/jars
+1:47:17 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.2.4,source=/home/null/programming/graphics/omdev/jedit/settings/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+1:47:17 AM [main] [message] HistoryModel: Loading history
+1:47:17 AM [main] [message] BufferHistory: Loading /home/null/programming/graphics/omdev/jedit/settings/recent.xml
+1:47:17 AM [main] [message] KillRing: Loading /home/null/programming/graphics/omdev/jedit/settings/killring.xml
+1:47:17 AM [main] [debug] jEdit: initPLAF non-edt old=com.sun.java.swing.plaf.gtk.GTKLookAndFeel requested=com.sun.java.swing.plaf.gtk.GTKLookAndFeel new=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
+1:47:17 AM [main] [debug] jEdit: SOCKS proxy disabled
+1:47:17 AM [main] [debug] jEdit: HTTP proxy disabled
+1:47:17 AM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+1:47:17 AM [main] [message] jEdit: Loading mode catalog file /home/null/programming/graphics/omdev/jedit/modes/catalog
+1:47:17 AM [main] [message] jEdit: Loading mode catalog file /home/null/programming/graphics/omdev/jedit/settings/modes/catalog
+1:47:17 AM [main] [debug] PluginJAR: Activating buffertabs.BufferTabsPlugin because of startup
+1:47:17 AM [main] [debug] PluginJAR: Opening /home/null/programming/graphics/omdev/jedit/settings/jars/BufferTabs.jar
+1:47:17 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.2.4,source=/home/null/programming/graphics/omdev/jedit/settings/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+1:47:17 AM [main] [debug] Macros: Registered beanshell macro handler
+1:47:17 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+1:47:17 AM [main] [message] BeanShell: Running script /home/null/programming/graphics/omdev/jedit/startup/startup.bsh
+1:47:17 AM [main] [notice] jEdit$3: Loading edit mode /home/null/programming/graphics/omdev/jedit/modes/text.xml
+1:47:17 AM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+1:47:17 AM [main] [debug] jEdit: main done:699 ms
+1:47:17 AM [AWT-EventQueue-0] [message] PerspectiveManager: Loading /home/null/programming/graphics/omdev/jedit/settings/perspective.xml
+1:47:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/)]
+1:47:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/)]
+1:47:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/)]
+1:47:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/)]
+1:47:17 AM [AWT-EventQueue-0] [debug] BufferSet: 324557154: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+1:47:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+1:47:17 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: null
+1:47:17 AM [AWT-EventQueue-0] [debug] BufferSet: 324557154 addBufferAt(Untitled-1 (~/),-1)
+1:47:17 AM [AWT-EventQueue-0] [debug] BufferSet: 324557154: Buffer added Untitled-1 (~/) at 0
+1:47:17 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+1:47:17 AM [AWT-EventQueue-0] [debug] BufferSet: 324557154: Buffer added Untitled-1 (~/) at 0
+1:47:17 AM [AWT-EventQueue-0] [debug] BufferSet: 324557154: addBufferSetListener buffertabs.BufferTabs[Untitled-1]
+1:47:17 AM [AWT-EventQueue-0] [debug] BufferSet: 324557154 addBufferAt(Untitled-1 (~/),0)
+1:47:18 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+1:47:18 AM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+1:47:18 AM [AWT-EventQueue-0] [message] jEdit: Startup complete: 1126 ms
+1:47:18 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+1:47:18 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+1:47:18 AM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+1:47:20 AM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+1:47:20 AM [AWT-EventQueue-0] [message] PerspectiveManager: Saving /home/null/programming/graphics/omdev/jedit/settings/perspective.xml
+1:47:20 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/programming/graphics/omdev/jedit/settings/perspective.xml" to "/home/null/programming/graphics/omdev/jedit/settings/settings-backup/perspective.xml~1~"
+1:47:20 AM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+1:47:20 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+1:47:20 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+1:47:20 AM [AWT-EventQueue-0] [debug] BufferSet: 324557154: Buffer removed Untitled-1 (~/)
+1:47:20 AM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/) is in no bufferSet anymore, closing it
+1:47:20 AM [AWT-EventQueue-0] [debug] BufferSet: 324557154: removeBufferSetListener buffertabs.BufferTabs[]
+1:47:20 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=/home/null/programming/graphics/omdev/jedit/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+1:47:20 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.2.4,source=/home/null/programming/graphics/omdev/jedit/settings/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+1:47:20 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.2.4,source=/home/null/programming/graphics/omdev/jedit/settings/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+1:47:20 AM [AWT-EventQueue-0] [message] BufferHistory: Saving /home/null/programming/graphics/omdev/jedit/settings/recent.xml
+1:47:20 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/programming/graphics/omdev/jedit/settings/recent.xml" to "/home/null/programming/graphics/omdev/jedit/settings/settings-backup/recent.xml~1~"
+1:47:20 AM [AWT-EventQueue-0] [message] KillRing: Saving /home/null/programming/graphics/omdev/jedit/settings/killring.xml
+1:47:20 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/programming/graphics/omdev/jedit/settings/killring.xml" to "/home/null/programming/graphics/omdev/jedit/settings/settings-backup/killring.xml~1~"
+1:47:20 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/programming/graphics/omdev/jedit/settings/properties" to "/home/null/programming/graphics/omdev/jedit/settings/settings-backup/properties~1~"

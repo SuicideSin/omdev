@@ -1,0 +1,1 @@
+cd jedit && ./jedit.jar -settings=settings &

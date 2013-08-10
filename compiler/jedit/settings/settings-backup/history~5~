@@ -20,8 +20,9 @@ ls
 [vfs.browser.filter]
 *\[^~#\]
 [action]
-combined-options
 Compile_and_Run
+plugin-options
+combined-options
 open-file
 close-buffer
 save
@@ -39,7 +40,6 @@ redo
 global-options
 goto-marker
 next-line
-prev-char
 [clipboard]
 code_directory
 runInSystemShell(view,command);

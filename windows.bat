@@ -1,1 +1,3 @@
-cd compiler/jedit && jedit.jar -settings=settings
+@echo off
+cd compiler/jedit
+start jedit.jar -settings=settings

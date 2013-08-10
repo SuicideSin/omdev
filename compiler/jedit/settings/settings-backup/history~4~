@@ -20,12 +20,13 @@ ls
 [vfs.browser.filter]
 *\[^~#\]
 [action]
-plugin-options
+global-options
+save
 Compile_and_Run
+plugin-options
 combined-options
 open-file
 close-buffer
-save
 undo
 compiler
 backspace
@@ -37,7 +38,6 @@ delete
 insert-tab-indent
 prev-line
 redo
-global-options
 goto-marker
 next-line
 [clipboard]

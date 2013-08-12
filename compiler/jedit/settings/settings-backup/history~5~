@@ -20,12 +20,12 @@ ls
 [vfs.browser.filter]
 *\[^~#\]
 [action]
+global-options
 Compile_and_Run
 save
 undo
 backspace
 insert-newline-indent
-global-options
 plugin-options
 combined-options
 open-file

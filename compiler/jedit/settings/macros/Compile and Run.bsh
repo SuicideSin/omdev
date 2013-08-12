@@ -1,3 +1,8 @@
+//Get Console Log
+import console.Shell;
+view.getDockableWindowManager().addDockableWindow("console");
+console.Console console=view.getDockableWindowManager().getDockable("console");
+
 //Save Current File
 buffer.save(view,null,true);
     
@@ -18,13 +23,43 @@ else if(OperatingSystem.isWindows())
 	script="windows.bat";
 
 //Create Script Command
-String command=script_path+"/../compile_scripts/"+script+" "+code_path;
+String compile_command=script_path+"/../compile_scripts/"+script+" "+script_path+"/../compile_scripts/errors.txt "+script_path+"/../compile_scripts/builds "+
+	script_path+"/../include "+code_path+" "+code_directory+"test.exe";
+
+//Run Compile Script Command
+runInSystemShell(view,compile_command);
+waitForConsole(view);
+
+//Get Error Text
+Buffer error_buffer=jEdit.openTemporary(view,script_path+"/../compile_scripts/","errors.txt",false);
+String error_text="";
+
+if(error_buffer!=null)
+	error_text=error_buffer.getText(0,error_buffer.getLength());
 
 //Clear Console Log
-import console.Shell;
-view.getDockableWindowManager().addDockableWindow("console");
-console = view.getDockableWindowManager().getDockable("console");
-console.clear();
+clearConsole(view);
+waitForConsole(view);
 
-//Run Script Command
-runInSystemShell(view,command);
+//Remove Error File
+if(error_buffer.getLength()>2)
+{
+	console.print(console.getErrorColor(),"Error(s)\n"+error_text+"\n\n");
+	waitForConsole(view);
+}
+else
+{
+	//Create Run Command
+	String run_command="./test.exe";
+	
+	if(OperatingSystem.isWindows())
+		run_command="start test.exe";
+	
+	//Clear Console
+	clearConsole(view);
+	console.print(console.getErrorColor(),"Running\n\n");
+	waitForConsole(view);
+	
+	//Run Run Command
+	runInSystemShell(view,run_command);
+}

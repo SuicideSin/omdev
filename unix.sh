@@ -1,1 +1,0 @@
-cd compiler/jedit && ./jedit.jar -settings=settings &

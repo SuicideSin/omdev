@@ -1,37 +1,46 @@
-OMDev (Orion-Mike Developer) is a free opensource 2D (soon to be 3D) graphics platform for use with C++.
-It is currently packaged with the Java based text editor JEdit for ease of use.
+OMDev (Orion Created a Tool Called OrionDev and Mike Copied the Idea...Developer)
+	Omdev is a free and opensource 2D (soon to be 3D) graphics platform for use with C++.
+	It is currently packaged with a Java based text editor called JEdit for ease of use.
 
-The goal of OMDev is to package easy to use C++ libraries for 2D Graphics, networking, and serial communication to create games/simulations.
-Another huge goal is to make this easy for middle school/high school students to use.
+	The goal of OMDev is to package easy to use C++ libraries for 2D Graphics, networking, and serial communication to create
+	games or simulations.  Another goal is to make programming easy for middle school/high school students to use.
 
-There are some dependencies.
+THERE ARE SOME DEPENDENCIES!!!
+	All Systems Dependencies:
+		You must have a Java Runtime Environment installed (JRE) to run JEdit.
 
-All Systems Dependencies:
-	You must have a Java Runtime Environment installed (JRE) to run JEdit.
+	Linux Dependencies:
+		You must have GCC and libx11 installed.  The library libx11 comes natively on most Linux distributions.
+		GCC is painless to compile from source, but usually there is a package manager you can use.
 
-Linux Dependencies:
-	You must have GCC and libx11 installed.  The library libx11 comes natively on most Linux distributions.
-	GCC is painless to compile from source, but usually there is a package manager you can use.
+		Examples:
+			Ubuntu - sudo apt-get install gcc libx11-dev
+			Fedora - sudo yum install gcc-c++ libx11-devel
 
-	Examples:
-		Ubuntu - sudo apt-get install gcc libx11-dev
-		Fedora - sudo yum install gcc-c++ libx11-devel
+	Mac Dependencies:
+		Go to http://developer.apple.com/downloads/ and install the "Command Line Tools for Xcode".
+		You need to create an account and login before going to the link.
 
-Mac Dependencies:
-	Go to http://developer.apple.com/downloads/ and install the "Command Line Tools for Xcode".
-	You need to create an account and login before going to the link.
+	Windows Dependencies:
+		None, GCC has been prepackaged for you.
 
-Windows Dependencies:
-	None, GCC has been prepackaged for you.
+IMPORTANT!!!
+	After you have installed the dependencies startup your OS's shortcut in the OMDev directory.
+		If you're running Linux, start linux.sh.
+		If you're running Mac, start mac.sh.
+		If you're running Windows, start windows.bat.
 
-After you have installed the dependencies startup your OS's startup script in the OMDev directory.
-	If you're running Linux, start linux.sh.
-	If you're running Mac, start mac.sh.
-	If you're running Windows, start windows.bat.
+	To compile and run your code hit F5.
+		Pressing F5 will save your code.
+		Pressing F5 will compile your code.
+		Pressing F5 will tell you any errors in your code.
+		Pressing F5 will run the program if not errors are found in your code.
 
-IMPORTANT!
-To compile and run your code hit F5.
-	Pressing F5 will save your code.
-	Pressing F5 will compile your code.
-	Pressing F5 will tell you any errors in your code.
-	Pressing F5 will run the program if not errors are found in your code.
+IF YOU GET UNDEFINED REFERENCES!!!
+	When OMDev starts up it does some precompiling stuff in the background.
+	Depending on your computer this can take up to a minute.
+	This only needs to be done once at startup, so instead of making the program wait we just do it in the background.
+	If waiting a minute doesn't fix these, EMAIL ME!
+
+CONTACT ME WITH ANY QUESTIONS!!!
+	Mike Moss (mrmoss@alaska.edu)

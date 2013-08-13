@@ -1,0 +1,37 @@
+OMDev (Orion-Mike Developer) is a free opensource 2D (soon to be 3D) graphics platform for use with C++.
+It is currently packaged with the Java based text editor JEdit for ease of use.
+
+The goal of OMDev is to package easy to use C++ libraries for 2D Graphics, networking, and serial communication to create games/simulations.
+Another huge goal is to make this easy for middle school/high school students to use.
+
+There are some dependencies.
+
+All Systems Dependencies:
+	You must have a Java Runtime Environment installed (JRE) to run JEdit.
+
+Linux Dependencies:
+	You must have GCC and libx11 installed.  The library libx11 comes natively on most Linux distributions.
+	GCC is painless to compile from source, but usually there is a package manager you can use.
+
+	Examples:
+		Ubuntu - sudo apt-get install gcc libx11-dev
+		Fedora - sudo yum install gcc-c++ libx11-devel
+
+Mac Dependencies:
+	Go to http://developer.apple.com/downloads/ and install the "Command Line Tools for Xcode".
+	You need to create an account and login before going to the link.
+
+Windows Dependencies:
+	None, GCC has been prepackaged for you.
+
+After you have installed the dependencies startup your OS's startup script in the OMDev directory.
+	If you're running Linux, start linux.sh.
+	If you're running Mac, start mac.sh.
+	If you're running Windows, start windows.bat.
+
+IMPORTANT!
+To compile and run your code hit F5.
+	Pressing F5 will save your code.
+	Pressing F5 will compile your code.
+	Pressing F5 will tell you any errors in your code.
+	Pressing F5 will run the program if not errors are found in your code.

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE PERSPECTIVE SYSTEM "perspective.dtd">
 <PERSPECTIVE>
-<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/null/programming/graphics/omdev/compiler/jedit/settings/macros/Compile and Run.bsh</BUFFER>
-<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/null/test.cpp</BUFFER>
 <VIEW PLAIN="FALSE">
 <PANES>
-"/home/null/test.cpp" buffer "/home/null/programming/graphics/omdev/compiler/jedit/settings/macros/Compile and Run.bsh" buff "/home/null/test.cpp" buff "global" bufferset
+"/home/null/programming/graphics/omdev/compiler/jedit/Untitled-1" buffer "global" bufferset
 </PANES>
-<GEOMETRY X="958" Y="36" WIDTH="959" HEIGHT="1044" EXT_STATE="0" />
+<GEOMETRY X="959" Y="36" WIDTH="960" HEIGHT="1043" EXT_STATE="0" />
 </VIEW>
 </PERSPECTIVE>

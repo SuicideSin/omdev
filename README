@@ -10,8 +10,10 @@ THERE ARE SOME DEPENDENCIES!!!
 		You must have a Java Runtime Environment installed (JRE) to run JEdit.
 
 	Linux Dependencies:
-		You must have GCC and libx11 installed.  The library libx11 comes natively on most Linux distributions.
+		You must have GCC and libx11 installed.  For the startup script message xmessage is used.
+		The library libx11 comes natively on most Linux distributions.
 		GCC is painless to compile from source, but usually there is a package manager you can use.
+		The messaging program xmessage comes with the X windowing system...so if you have a GUI your set...
 
 		Examples:
 			Ubuntu - sudo apt-get install gcc libx11-dev

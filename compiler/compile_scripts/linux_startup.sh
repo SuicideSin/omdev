@@ -10,7 +10,7 @@ LIB="-lGL -lGLU -lX11"
 CFLAGS="-fpermissive -w -Wno-write-strings -Wno-unused-result -Wno-format -O"
 INCLUDES="-I../../include -I../../include/gk12 -I../../include/glut"
 
-mkdir -p builds &&
-cd builds &&
-${C_COMPILER} ${GLEW} ${GLUI} ${GLUT} ${CFLAGS} -c ${LIB} ${INCLUDES} &&
+mkdir -p builds
+cd builds
+${C_COMPILER} ${GLEW} ${GLUI} ${GLUT} ${CFLAGS} -c ${LIB} ${INCLUDES}
 ${CPP_COMPILER} ${GK12} ${MSL} ${SOIL} ${CFLAGS} -c ${LIB} ${INCLUDES}

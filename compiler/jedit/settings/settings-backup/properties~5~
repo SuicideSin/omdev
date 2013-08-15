@@ -1,12 +1,12 @@
 #jEdit properties
-#Mon Aug 12 12:30:09 AKDT 2013
+#Wed Aug 14 23:55:25 AKDT 2013
 useMD5forDirtyCalculation=false
 buffertabs.closeButton=true
 mode.c++.run.use-custom=false
 helpviewer.width=760
 quicknotepad.dock-position=floating
 vfs.browser.last-filter=*[^~\#]
-view.extendedState=6
+view.extendedState=0
 saveAsUsesFSB=false
 keymap.current=imported
 error-list.dock-position=floating
@@ -18,7 +18,7 @@ tip.show=false
 buffertabs.icons=true
 firewall.socks.host=
 view.y=36
-view.x=0
+view.x=959
 view.toolbar.floatable=false
 suppressNotSavedConfirmUntitled=false
 buffer.encoding=UTF-8
@@ -27,10 +27,10 @@ commando.visible.diff=true
 search.skipHidden.toggle=true
 buffertabs.close-tab-on.single-middle-click=true
 buffertabs.usePopup=true
-view.width=962
+view.width=960
 firewall.port=
 logviewer.height=299
-view.height=1044
+view.height=1043
 helpviewer.fontstyle=0
 search.ignoreCase.toggle=false
 search.width=565
@@ -121,7 +121,7 @@ helpviewer.font=Dialog
 plugin-manager.y=50
 plugin-manager.x=-8
 vfs.browser.dialog.y=50
-vfs.browser.dialog.x=50
+vfs.browser.dialog.x=474
 options.shortcuts.select.index=3
 console.shell.info.toggle=false
 plugin-manager.mirror.cached-id=nchc

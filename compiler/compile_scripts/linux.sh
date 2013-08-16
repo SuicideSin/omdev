@@ -1,4 +1,3 @@
-C_COMPILER="gcc"
 CPP_COMPILER="g++"
 SRC="$4"
 OBJECT_FILES="$2/*.o"

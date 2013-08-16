@@ -30,6 +30,15 @@ String compile_command=script_path+"/../compile_scripts/"+script+" "+script_path
 runInSystemShell(view,compile_command);
 waitForConsole(view);
 
+try
+{
+	Thread.sleep(1000);
+}
+catch(InterruptedException e)
+{
+	Thread.currentThread().interrupt();
+}
+
 //Get Error Text
 Buffer error_buffer=jEdit.openTemporary(view,script_path+"/../compile_scripts/","errors.txt",false);
 String error_text="";
@@ -53,13 +62,13 @@ else
 	String run_command="./test.exe";
 	
 	if(OperatingSystem.isWindows())
-		run_command="start test.exe";
+		run_command="test.exe";
+	
+	//Run Run Command
+	runInSystemShell(view,run_command);
 	
 	//Clear Console
 	clearConsole(view);
 	console.print(console.getErrorColor(),"Running\n\n");
 	waitForConsole(view);
-	
-	//Run Run Command
-	runInSystemShell(view,run_command);
 }

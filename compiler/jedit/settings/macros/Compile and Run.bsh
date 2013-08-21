@@ -5,11 +5,19 @@ console.Console console=view.getDockableWindowManager().getDockable("console");
 
 //Save Current File
 buffer.save(view,null,true);
-    
+
 //Get File Paths
 String script_path=jEdit.getJEditHome();
 String code_directory=buffer.getDirectory();
 String code_path=buffer.getPath();
+
+//Get Executable Name
+String exe_name=buffer.getName();
+
+if(exe_name.endsWith(".cpp"))
+	exe_name=exe_name.substring(0,exe_name.length()-4)+".exe";
+else
+	exe_name+=".exe";
 
 //CD To Project Directory
 runInSystemShell(view,"cd "+code_directory);
@@ -24,7 +32,7 @@ else if(OperatingSystem.isWindows())
 
 //Create Script Command
 String compile_command=script_path+"/../compile_scripts/"+script+" "+script_path+"/../compile_scripts/errors.txt "+script_path+"/../compile_scripts/builds "+
-	script_path+"/../include "+code_path+" "+code_directory+"test.exe";
+	script_path+"/../include "+code_path+" "+code_directory+exe_name;
 
 //Run Compile Script Command
 runInSystemShell(view,compile_command);
@@ -50,23 +58,25 @@ if(error_buffer!=null)
 clearConsole(view);
 waitForConsole(view);
 
-//Remove Error File
+//Display Errors
 if(error_buffer.getLength()>2)
 {
 	console.print(console.getErrorColor(),"Error(s)\n"+error_text+"\n\n");
 	waitForConsole(view);
 }
+
+//Run Code if No Errors
 else
 {
 	//Create Run Command
-	String run_command="./test.exe";
-	
+	String run_command="./"+exe_name;
+
 	if(OperatingSystem.isWindows())
-		run_command="test.exe";
-	
+		run_command=exe_name;
+
 	//Run Run Command
 	runInSystemShell(view,run_command);
-	
+
 	//Clear Console
 	clearConsole(view);
 	console.print(console.getErrorColor(),"Running\n\n");

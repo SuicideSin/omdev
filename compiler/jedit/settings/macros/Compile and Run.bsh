@@ -31,18 +31,6 @@ String include_argument=jEdit.getJEditHome()+"/../include";
 String code_argument=buffer.getPath();
 String exe_argument=buffer.getDirectory()+exe_name;
 
-//Create Script Commands (Unix)
-if(!OperatingSystem.isWindows())
-{
-	scripts_path=scripts_path.replace(" ","\\ ");
-	script_argument=script_argument.replace(" ","\\ ");
-	error_argument=error_argument.replace(" ","\\ ");
-	build_argument=build_argument.replace(" ","\\ ");
-	include_argument=include_argument.replace(" ","\\ ");
-	code_argument=code_argument.replace(" ","\\ ");
-	exe_argument=exe_argument.replace(" ","\\ ");
-}
-
 //CD To Project Directory
 runInSystemShell(view,"cd \""+buffer.getDirectory()+"\"");
 
@@ -96,6 +84,6 @@ else
 
 	//Clear Console
 	clearConsole(view);
-	console.print(console.getErrorColor(),"Running\n\n");
+	console.print(console.getInfoColor(),"Running\n\n");
 	waitForConsole(view);
 }

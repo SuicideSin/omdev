@@ -1,5 +1,5 @@
 #jEdit properties
-#Wed Aug 21 12:17:17 AKDT 2013
+#Wed Aug 21 14:43:04 AKDT 2013
 useMD5forDirtyCalculation=false
 buffertabs.closeButton=true
 mode.c++.run.use-custom=false
@@ -18,7 +18,7 @@ tip.show=false
 buffertabs.icons=true
 firewall.socks.host=
 view.y=36
-view.x=958
+view.x=0
 view.toolbar.floatable=false
 suppressNotSavedConfirmUntitled=false
 buffer.encoding=UTF-8
@@ -121,7 +121,7 @@ helpviewer.font=Dialog
 plugin-manager.y=50
 plugin-manager.x=-8
 vfs.browser.dialog.y=50
-vfs.browser.dialog.x=474
+vfs.browser.dialog.x=1432
 options.shortcuts.select.index=3
 console.shell.info.toggle=false
 plugin-manager.mirror.cached-id=nchc

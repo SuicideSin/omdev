@@ -1,267 +1,322 @@
-Log file created on Wed Aug 21 12:18:20 AKDT 2013
+Log file created on Wed Aug 21 14:43:14 AKDT 2013
 IMPORTANT:
 Because updating this file after every log message would kill
 performance, it will be *incomplete* unless you invoke the
 Utilities->Troubleshooting->Update Activity Log on Disk command!
-12:18:20 PM [main] [message] Log: When reporting bugs, please include the following information:
-12:18:20 PM [main] [message] Log: java.version=1.7.0_21
-12:18:20 PM [main] [message] Log: java.vm.version=23.7-b01
-12:18:20 PM [main] [message] Log: java.vm.name=OpenJDK 64-Bit Server VM
-12:18:20 PM [main] [message] Log: java.runtime.version=1.7.0_21-b02
-12:18:20 PM [main] [message] Log: java.runtime.name=OpenJDK Runtime Environment
-12:18:20 PM [main] [message] Log: java.vendor=Oracle Corporation
-12:18:20 PM [main] [message] Log: java.compiler=null
-12:18:20 PM [main] [message] Log: os.name=Linux
-12:18:20 PM [main] [message] Log: os.version=3.8.0-25-generic
-12:18:20 PM [main] [message] Log: os.arch=amd64
-12:18:20 PM [main] [message] Log: user.home=/home/null
-12:18:20 PM [main] [message] Log: java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
-12:18:20 PM [main] [message] Log: java.class.path=/home/null/test folder/omdev/compiler/jedit/jedit.jar
-12:18:20 PM [main] [message] jEdit: starting with command line arguments: -settings=settings
-12:18:20 PM [main] [debug] jEdit: before splash screen activation:111 ms
-12:18:20 PM [main] [debug] jEdit: after splash screen activation:111 ms
-12:18:20 PM [main] [debug] MiscUtilities: Saving backup of file "/home/null/test folder/omdev/compiler/jedit/settings/activity.log" to "/home/null/test folder/omdev/compiler/jedit/settings/settings-backup/activity.log~1~"
-12:18:20 PM [main] [notice] jEdit: jEdit version 5.1.0
-12:18:20 PM [main] [message] jEdit: Settings directory is /home/null/test folder/omdev/compiler/jedit/settings
-12:18:20 PM [main] [message] jEdit: jEdit home directory is /home/null/test folder/omdev/compiler/jedit
-12:18:20 PM [main] [message] BeanShell: Beanshell Init
-12:18:20 PM [main] [debug] GUIUtilities: Icon theme set to: tango
-12:18:20 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
-12:18:20 PM [main] [debug] EditServer: jEdit server started on port 41947
-12:18:20 PM [main] [debug] EditServer: Authorization key is 1760571475
-12:18:20 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=javax.swing.plaf.metal.MetalLookAndFeel new=javax.swing.plaf.metal.MetalLookAndFeel
-12:18:20 PM [main] [debug] ActionSet: Loading actions from jar:file:/home/null/test%20folder/omdev/compiler/jedit/jedit.jar!/org/gjt/sp/jedit/actions.xml
-12:18:20 PM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/home/null/test%20folder/omdev/compiler/jedit/jedit.jar!/org/gjt/sp/jedit/dockables.xml
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
-12:18:20 PM [main] [notice] jEdit: Loading plugins from /home/null/test folder/omdev/compiler/jedit/jars
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=/home/null/test folder/omdev/compiler/jedit/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
-12:18:20 PM [main] [notice] jEdit: Loading plugins from /home/null/test folder/omdev/compiler/jedit/settings/jars
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/log4j-1.2.14.jar]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/bcel-5.2.jar]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-lang-2.3.jar]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/xmlrpc-common-3.1.jar]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-io-2.4.jar]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/ws-commons-util-1.0.2.jar]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.1.2,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/Console.jar,class=console.ConsolePlugin]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-net-1.4.1.jar]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-logging-1.1.jar]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=2.1,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-codec-1.3.jar]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/xmlrpc-client-3.1.jar]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-httpclient-3.0.1.jar]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=0.8,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/JakartaCommons.jar,class=jakartacommons.JakartaCommonsPlugin]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-collections-3.2.jar]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.2.4,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
-12:18:20 PM [main] [message] HistoryModel: Loading history
-12:18:20 PM [main] [message] BufferHistory: Loading /home/null/test folder/omdev/compiler/jedit/settings/recent.xml
-12:18:20 PM [main] [message] KillRing: Loading /home/null/test folder/omdev/compiler/jedit/settings/killring.xml
-12:18:20 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=javax.swing.plaf.metal.MetalLookAndFeel new=javax.swing.plaf.metal.MetalLookAndFeel
-12:18:20 PM [main] [debug] jEdit: SOCKS proxy disabled
-12:18:20 PM [main] [debug] jEdit: HTTP proxy disabled
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
-12:18:20 PM [main] [message] jEdit: Loading mode catalog file /home/null/test folder/omdev/compiler/jedit/modes/catalog
-12:18:20 PM [main] [message] jEdit: Loading mode catalog file /home/null/test folder/omdev/compiler/jedit/settings/modes/catalog
-12:18:20 PM [main] [debug] PluginJAR: Activating console.ConsolePlugin because of startup
-12:18:20 PM [main] [debug] PluginJAR: Opening /home/null/test folder/omdev/compiler/jedit/settings/jars/Console.jar
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:18:20 PM [main] [debug] ConsolePlugin: Loaded 17 Actions
-12:18:20 PM [main] [debug] PluginJAR: Opening /home/null/test folder/omdev/compiler/jedit/settings/jars/ErrorList.jar
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=2.1,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
-12:18:20 PM [main] [debug] PluginJAR: Activating buffertabs.BufferTabsPlugin because of startup
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=5.1.2,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/Console.jar,class=console.ConsolePlugin]
-12:18:20 PM [main] [debug] PluginJAR: Opening /home/null/test folder/omdev/compiler/jedit/settings/jars/BufferTabs.jar
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.2.4,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:18:20 PM [main] [debug] Macros: Registered beanshell macro handler
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
-12:18:20 PM [main] [message] BeanShell: Running script /home/null/test folder/omdev/compiler/jedit/startup/startup.bsh
-12:18:20 PM [main] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/text.xml
-12:18:20 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
-12:18:20 PM [main] [debug] jEdit: main done:651 ms
-12:18:20 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading /home/null/test folder/omdev/compiler/jedit/settings/perspective.xml
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/test folder/omdev/compiler/jedit/)]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/test folder/omdev/compiler/jedit/)]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/test folder/omdev/compiler/jedit/)]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/test folder/omdev/compiler/jedit/)]
-12:18:20 PM [AWT-EventQueue-0] [debug] BufferSet: 203593861: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
-12:18:20 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: null
-12:18:20 PM [AWT-EventQueue-0] [debug] BufferSet: 203593861 addBufferAt(Untitled-1 (~/test folder/omdev/compiler/jedit/),-1)
-12:18:20 PM [AWT-EventQueue-0] [debug] BufferSet: 203593861: Buffer added Untitled-1 (~/test folder/omdev/compiler/jedit/) at 0
-12:18:20 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
-12:18:20 PM [AWT-EventQueue-0] [debug] BufferSet: 203593861: Buffer added Untitled-1 (~/test folder/omdev/compiler/jedit/) at 0
-12:18:20 PM [AWT-EventQueue-0] [debug] BufferSet: 203593861: addBufferSetListener buffertabs.BufferTabs[Untitled-1]
-12:18:20 PM [AWT-EventQueue-0] [debug] BufferSet: 203593861 addBufferAt(Untitled-1 (~/test folder/omdev/compiler/jedit/),0)
-12:18:21 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
-12:18:21 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
-12:18:21 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 1135 ms
-12:18:21 PM [AWT-EventQueue-0] [debug] DockableWindowManager: Loading dockables from jeditresource:/Console.jar!/dockables.xml
-12:18:21 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:21 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-12:18:21 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-12:18:22 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
-12:18:22 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
-12:18:22 PM [AWT-EventQueue-0] [debug] ActionSet: Loading actions from jar:file:/home/null/test%20folder/omdev/compiler/jedit/jedit.jar!/org/gjt/sp/jedit/browser.actions.xml
-12:18:31 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
-12:18:31 PM [AWT-EventQueue-0] [debug] BufferSet: 203593861 addBufferAt(test.cpp (~/programming/other/omdev testing/),-1)
-12:18:31 PM [AWT-EventQueue-0] [debug] BufferSet: 203593861: Buffer added test.cpp (~/programming/other/omdev testing/) at 0
-12:18:31 PM [AWT-EventQueue-0] [debug] BufferSetManager: removeBuffer(BufferSet[nbBuffers=2],Untitled-1 (~/test folder/omdev/compiler/jedit/))
-12:18:31 PM [AWT-EventQueue-0] [debug] BufferSet: 203593861: Buffer removed Untitled-1 (~/test folder/omdev/compiler/jedit/)
-12:18:31 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
-12:18:31 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
-12:18:31 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/test folder/omdev/compiler/jedit/) is in no bufferSet anymore, closing it
-12:18:31 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=null,source=Untitled-1 (~/test folder/omdev/compiler/jedit/)]
-12:18:31 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=null,source=Untitled-1 (~/test folder/omdev/compiler/jedit/)]
-12:18:31 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
-12:18:32 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/cplusplus.xml
-12:18:32 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/c.xml
-12:18:32 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/doxygen.xml
-12:18:32 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/xml.xml
-12:18:32 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/xml.xml
-12:18:32 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/doxygen.xml
-12:18:32 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/xml.xml
-12:18:32 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/c.xml
-12:18:32 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/doxygen.xml
-12:18:32 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/xml.xml
-12:18:32 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
-12:18:32 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
-12:18:32 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-12:18:32 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-12:18:32 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:18:32 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
-12:18:33 PM [AWT-EventQueue-0] [message] BeanShell: Running script /home/null/test folder/omdev/compiler/jedit/settings/macros/Compile and Run.bsh
-12:18:33 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:33 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
-12:18:33 PM [AWT-EventQueue-0] [debug] FileVFS: /home/null/programming/other/omdev testing/test.cpp has permissions 0664
-12:18:33 PM [jEdit Worker #3] [warning] MiscUtilities: Backup filename is the same as the original filename. Backup failed. Check "Saving & Backup" options.
-12:18:33 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:33 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:33 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:34 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:34 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:34 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:34 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:34 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
-12:18:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
-12:18:35 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
-12:18:35 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing,source=null]
-12:18:35 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/#test.cpp#save#,source=null]
-12:18:35 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/test.cpp,source=null]
-12:18:35 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: test.cpp (~/programming/other/omdev testing/)
-12:18:35 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:18:35 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-12:18:35 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-12:18:35 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:18:35 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: test.cpp (~/programming/other/omdev testing/)
-12:18:35 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:18:36 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
-12:18:36 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
-12:18:37 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
-12:18:37 PM [AWT-EventQueue-0] [debug] FileVFS: /home/null/programming/other/omdev testing/test.cpp has permissions 0664
-12:18:37 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
-12:18:37 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
-12:18:37 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
-12:18:37 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing,source=null]
-12:18:37 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/#test.cpp#save#,source=null]
-12:18:37 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/test.cpp,source=null]
-12:18:38 PM [AWT-EventQueue-0] [message] BeanShell: Running script /home/null/test folder/omdev/compiler/jedit/settings/macros/Compile and Run.bsh
-12:18:38 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
-12:18:38 PM [AWT-EventQueue-0] [debug] FileVFS: /home/null/programming/other/omdev testing/test.cpp has permissions 0664
-12:18:38 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:38 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:38 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:39 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:39 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:39 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:39 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:39 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:40 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
-12:18:40 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
-12:18:40 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
-12:18:40 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing,source=null]
-12:18:40 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/#test.cpp#save#,source=null]
-12:18:40 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/test.cpp,source=null]
-12:18:40 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: test.cpp (~/programming/other/omdev testing/)
-12:18:40 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:18:40 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-12:18:40 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-12:18:40 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:18:40 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: test.cpp (~/programming/other/omdev testing/)
-12:18:40 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:18:42 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
-12:18:47 PM [AWT-EventQueue-0] [message] BeanShell: Running script /home/null/test folder/omdev/compiler/jedit/settings/macros/Compile and Run.bsh
-12:18:47 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:47 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
-12:18:47 PM [AWT-EventQueue-0] [debug] FileVFS: /home/null/programming/other/omdev testing/test.cpp has permissions 0664
-12:18:47 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:47 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:47 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:48 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:48 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:48 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:48 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:48 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-12:18:50 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
-12:18:50 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
-12:18:50 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
-12:18:50 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing,source=null]
-12:18:50 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/#test.cpp#save#,source=null]
-12:18:50 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/test.cpp,source=null]
-12:18:50 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: test.cpp (~/programming/other/omdev testing/)
-12:18:50 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:18:50 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-12:18:50 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-12:18:50 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:18:50 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: test.cpp (~/programming/other/omdev testing/)
-12:18:50 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:18:50 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/test folder/omdev/compiler/jedit/settings/perspective.xml" to "/home/null/test folder/omdev/compiler/jedit/settings/settings-backup/perspective.xml~1~"
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
-12:18:51 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving /home/null/test folder/omdev/compiler/jedit/settings/perspective.xml
-12:18:51 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/test folder/omdev/compiler/jedit/settings/perspective.xml" to "/home/null/test folder/omdev/compiler/jedit/settings/settings-backup/perspective.xml~1~"
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
-12:18:51 PM [AWT-EventQueue-0] [debug] BufferSet: 203593861: Buffer removed test.cpp (~/programming/other/omdev testing/)
-12:18:51 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:test.cpp (~/programming/other/omdev testing/) is in no bufferSet anymore, closing it
-12:18:51 PM [AWT-EventQueue-0] [debug] BufferSet: 203593861: removeBufferSetListener buffertabs.BufferTabs[]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=/home/null/test folder/omdev/compiler/jedit/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/log4j-1.2.14.jar]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/bcel-5.2.jar]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-lang-2.3.jar]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/xmlrpc-common-3.1.jar]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-io-2.4.jar]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/ws-commons-util-1.0.2.jar]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=5.1.2,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/Console.jar,class=console.ConsolePlugin]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.1.2,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/Console.jar,class=console.ConsolePlugin]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-net-1.4.1.jar]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-logging-1.1.jar]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=2.1,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=2.1,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-codec-1.3.jar]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/xmlrpc-client-3.1.jar]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-httpclient-3.0.1.jar]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=0.8,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/JakartaCommons.jar,class=jakartacommons.JakartaCommonsPlugin]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-collections-3.2.jar]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.2.4,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
-12:18:51 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.2.4,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
-12:18:51 PM [AWT-EventQueue-0] [message] HistoryModel: Saving history
-12:18:51 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/test folder/omdev/compiler/jedit/settings/history" to "/home/null/test folder/omdev/compiler/jedit/settings/settings-backup/history~1~"
-12:18:51 PM [AWT-EventQueue-0] [message] BufferHistory: Saving /home/null/test folder/omdev/compiler/jedit/settings/recent.xml
-12:18:51 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/test folder/omdev/compiler/jedit/settings/recent.xml" to "/home/null/test folder/omdev/compiler/jedit/settings/settings-backup/recent.xml~1~"
-12:18:51 PM [AWT-EventQueue-0] [message] KillRing: Saving /home/null/test folder/omdev/compiler/jedit/settings/killring.xml
-12:18:51 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/test folder/omdev/compiler/jedit/settings/killring.xml" to "/home/null/test folder/omdev/compiler/jedit/settings/settings-backup/killring.xml~1~"
-12:18:51 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/test folder/omdev/compiler/jedit/settings/properties" to "/home/null/test folder/omdev/compiler/jedit/settings/settings-backup/properties~1~"
+2:43:14 PM [main] [message] Log: When reporting bugs, please include the following information:
+2:43:14 PM [main] [message] Log: java.version=1.7.0_21
+2:43:14 PM [main] [message] Log: java.vm.version=23.7-b01
+2:43:14 PM [main] [message] Log: java.vm.name=OpenJDK 64-Bit Server VM
+2:43:14 PM [main] [message] Log: java.runtime.version=1.7.0_21-b02
+2:43:14 PM [main] [message] Log: java.runtime.name=OpenJDK Runtime Environment
+2:43:14 PM [main] [message] Log: java.vendor=Oracle Corporation
+2:43:14 PM [main] [message] Log: java.compiler=null
+2:43:14 PM [main] [message] Log: os.name=Linux
+2:43:14 PM [main] [message] Log: os.version=3.8.0-25-generic
+2:43:14 PM [main] [message] Log: os.arch=amd64
+2:43:14 PM [main] [message] Log: user.home=/home/null
+2:43:14 PM [main] [message] Log: java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+2:43:14 PM [main] [message] Log: java.class.path=/home/null/test folder/omdev/compiler/jedit/jedit.jar
+2:43:14 PM [main] [message] jEdit: starting with command line arguments: -settings=settings
+2:43:14 PM [main] [debug] jEdit: before splash screen activation:97 ms
+2:43:14 PM [main] [debug] jEdit: after splash screen activation:97 ms
+2:43:14 PM [main] [debug] MiscUtilities: Saving backup of file "/home/null/test folder/omdev/compiler/jedit/settings/activity.log" to "/home/null/test folder/omdev/compiler/jedit/settings/settings-backup/activity.log~1~"
+2:43:14 PM [main] [notice] jEdit: jEdit version 5.1.0
+2:43:14 PM [main] [message] jEdit: Settings directory is /home/null/test folder/omdev/compiler/jedit/settings
+2:43:15 PM [main] [message] jEdit: jEdit home directory is /home/null/test folder/omdev/compiler/jedit
+2:43:15 PM [main] [message] BeanShell: Beanshell Init
+2:43:15 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+2:43:15 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+2:43:15 PM [main] [debug] EditServer: jEdit server started on port 53598
+2:43:15 PM [main] [debug] EditServer: Authorization key is 433133690
+2:43:15 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=javax.swing.plaf.metal.MetalLookAndFeel new=javax.swing.plaf.metal.MetalLookAndFeel
+2:43:15 PM [main] [debug] ActionSet: Loading actions from jar:file:/home/null/test%20folder/omdev/compiler/jedit/jedit.jar!/org/gjt/sp/jedit/actions.xml
+2:43:15 PM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/home/null/test%20folder/omdev/compiler/jedit/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+2:43:15 PM [main] [notice] jEdit: Loading plugins from /home/null/test folder/omdev/compiler/jedit/jars
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=/home/null/test folder/omdev/compiler/jedit/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+2:43:15 PM [main] [notice] jEdit: Loading plugins from /home/null/test folder/omdev/compiler/jedit/settings/jars
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/log4j-1.2.14.jar]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/bcel-5.2.jar]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-lang-2.3.jar]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/xmlrpc-common-3.1.jar]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-io-2.4.jar]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/ws-commons-util-1.0.2.jar]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.1.2,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/Console.jar,class=console.ConsolePlugin]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-net-1.4.1.jar]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-logging-1.1.jar]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=2.1,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-codec-1.3.jar]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/xmlrpc-client-3.1.jar]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-httpclient-3.0.1.jar]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=0.8,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/JakartaCommons.jar,class=jakartacommons.JakartaCommonsPlugin]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-collections-3.2.jar]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.2.4,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+2:43:15 PM [main] [message] HistoryModel: Loading history
+2:43:15 PM [main] [message] BufferHistory: Loading /home/null/test folder/omdev/compiler/jedit/settings/recent.xml
+2:43:15 PM [main] [message] KillRing: Loading /home/null/test folder/omdev/compiler/jedit/settings/killring.xml
+2:43:15 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=javax.swing.plaf.metal.MetalLookAndFeel new=javax.swing.plaf.metal.MetalLookAndFeel
+2:43:15 PM [main] [debug] jEdit: SOCKS proxy disabled
+2:43:15 PM [main] [debug] jEdit: HTTP proxy disabled
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+2:43:15 PM [main] [message] jEdit: Loading mode catalog file /home/null/test folder/omdev/compiler/jedit/modes/catalog
+2:43:15 PM [main] [message] jEdit: Loading mode catalog file /home/null/test folder/omdev/compiler/jedit/settings/modes/catalog
+2:43:15 PM [main] [debug] PluginJAR: Activating console.ConsolePlugin because of startup
+2:43:15 PM [main] [debug] PluginJAR: Opening /home/null/test folder/omdev/compiler/jedit/settings/jars/Console.jar
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:43:15 PM [main] [debug] ConsolePlugin: Loaded 17 Actions
+2:43:15 PM [main] [debug] PluginJAR: Opening /home/null/test folder/omdev/compiler/jedit/settings/jars/ErrorList.jar
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=2.1,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+2:43:15 PM [main] [debug] PluginJAR: Activating buffertabs.BufferTabsPlugin because of startup
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=5.1.2,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/Console.jar,class=console.ConsolePlugin]
+2:43:15 PM [main] [debug] PluginJAR: Opening /home/null/test folder/omdev/compiler/jedit/settings/jars/BufferTabs.jar
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.2.4,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:43:15 PM [main] [debug] Macros: Registered beanshell macro handler
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+2:43:15 PM [main] [message] BeanShell: Running script /home/null/test folder/omdev/compiler/jedit/startup/startup.bsh
+2:43:15 PM [main] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/text.xml
+2:43:15 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+2:43:15 PM [main] [debug] jEdit: main done:607 ms
+2:43:15 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading /home/null/test folder/omdev/compiler/jedit/settings/perspective.xml
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/test folder/omdev/compiler/jedit/)]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/test folder/omdev/compiler/jedit/)]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/test folder/omdev/compiler/jedit/)]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/test folder/omdev/compiler/jedit/)]
+2:43:15 PM [AWT-EventQueue-0] [debug] BufferSet: 860572156: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+2:43:15 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: null
+2:43:15 PM [AWT-EventQueue-0] [debug] BufferSet: 860572156 addBufferAt(Untitled-1 (~/test folder/omdev/compiler/jedit/),-1)
+2:43:15 PM [AWT-EventQueue-0] [debug] BufferSet: 860572156: Buffer added Untitled-1 (~/test folder/omdev/compiler/jedit/) at 0
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+2:43:15 PM [AWT-EventQueue-0] [debug] BufferSet: 860572156: Buffer added Untitled-1 (~/test folder/omdev/compiler/jedit/) at 0
+2:43:15 PM [AWT-EventQueue-0] [debug] BufferSet: 860572156: addBufferSetListener buffertabs.BufferTabs[Untitled-1]
+2:43:15 PM [AWT-EventQueue-0] [debug] BufferSet: 860572156 addBufferAt(Untitled-1 (~/test folder/omdev/compiler/jedit/),0)
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+2:43:15 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+2:43:15 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 1057 ms
+2:43:15 PM [AWT-EventQueue-0] [debug] DockableWindowManager: Loading dockables from jeditresource:/Console.jar!/dockables.xml
+2:43:16 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:16 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:43:16 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:43:16 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:43:16 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+2:43:17 PM [AWT-EventQueue-0] [debug] ActionSet: Loading actions from jar:file:/home/null/test%20folder/omdev/compiler/jedit/jedit.jar!/org/gjt/sp/jedit/browser.actions.xml
+2:43:26 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:26 PM [AWT-EventQueue-0] [debug] BufferSet: 860572156 addBufferAt(test.cpp (~/programming/other/omdev testing/),-1)
+2:43:26 PM [AWT-EventQueue-0] [debug] BufferSet: 860572156: Buffer added test.cpp (~/programming/other/omdev testing/) at 0
+2:43:26 PM [AWT-EventQueue-0] [debug] BufferSetManager: removeBuffer(BufferSet[nbBuffers=2],Untitled-1 (~/test folder/omdev/compiler/jedit/))
+2:43:26 PM [AWT-EventQueue-0] [debug] BufferSet: 860572156: Buffer removed Untitled-1 (~/test folder/omdev/compiler/jedit/)
+2:43:26 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:43:26 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:43:26 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/test folder/omdev/compiler/jedit/) is in no bufferSet anymore, closing it
+2:43:26 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=null,source=Untitled-1 (~/test folder/omdev/compiler/jedit/)]
+2:43:26 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=null,source=Untitled-1 (~/test folder/omdev/compiler/jedit/)]
+2:43:26 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:26 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/cplusplus.xml
+2:43:26 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/c.xml
+2:43:26 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/doxygen.xml
+2:43:26 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/xml.xml
+2:43:26 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/xml.xml
+2:43:26 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/doxygen.xml
+2:43:26 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/xml.xml
+2:43:26 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/c.xml
+2:43:27 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/doxygen.xml
+2:43:27 PM [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/null/test folder/omdev/compiler/jedit/modes/xml.xml
+2:43:27 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
+2:43:27 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:27 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:43:27 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:43:27 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:43:27 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:43:27 PM [AWT-EventQueue-0] [message] BeanShell: Running script /home/null/test folder/omdev/compiler/jedit/settings/macros/Compile and Run.bsh
+2:43:27 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:27 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:27 PM [AWT-EventQueue-0] [debug] FileVFS: /home/null/programming/other/omdev testing/test.cpp has permissions 0664
+2:43:27 PM [jEdit Worker #3] [warning] MiscUtilities: Backup filename is the same as the original filename. Backup failed. Check "Saving & Backup" options.
+2:43:28 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:28 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:28 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:29 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:29 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:29 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:29 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:29 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:30 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
+2:43:30 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:30 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:30 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing,source=null]
+2:43:30 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/#test.cpp#save#,source=null]
+2:43:30 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/test.cpp,source=null]
+2:43:30 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: test.cpp (~/programming/other/omdev testing/)
+2:43:30 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:43:30 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:43:30 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:43:30 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:43:30 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: test.cpp (~/programming/other/omdev testing/)
+2:43:30 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:43:31 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:43:32 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:43:32 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
+2:43:33 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:33 PM [AWT-EventQueue-0] [debug] FileVFS: /home/null/programming/other/omdev testing/test.cpp has permissions 0664
+2:43:33 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
+2:43:33 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:33 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:33 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing,source=null]
+2:43:33 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/#test.cpp#save#,source=null]
+2:43:33 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/test.cpp,source=null]
+2:43:33 PM [AWT-EventQueue-0] [message] BeanShell: Running script /home/null/test folder/omdev/compiler/jedit/settings/macros/Compile and Run.bsh
+2:43:33 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:33 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:33 PM [AWT-EventQueue-0] [debug] FileVFS: /home/null/programming/other/omdev testing/test.cpp has permissions 0664
+2:43:33 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:33 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:33 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:35 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:35 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:35 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:35 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:35 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:36 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
+2:43:36 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:36 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:36 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing,source=null]
+2:43:36 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/#test.cpp#save#,source=null]
+2:43:36 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/test.cpp,source=null]
+2:43:36 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: test.cpp (~/programming/other/omdev testing/)
+2:43:36 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:43:36 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:43:36 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:43:36 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:43:36 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: test.cpp (~/programming/other/omdev testing/)
+2:43:36 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:43:36 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:43:36 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
+2:43:37 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:37 PM [AWT-EventQueue-0] [debug] FileVFS: /home/null/programming/other/omdev testing/test.cpp has permissions 0664
+2:43:37 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
+2:43:37 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:37 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:37 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing,source=null]
+2:43:37 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/#test.cpp#save#,source=null]
+2:43:37 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/test.cpp,source=null]
+2:43:37 PM [AWT-EventQueue-0] [message] BeanShell: Running script /home/null/test folder/omdev/compiler/jedit/settings/macros/Compile and Run.bsh
+2:43:37 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:37 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:37 PM [AWT-EventQueue-0] [debug] FileVFS: /home/null/programming/other/omdev testing/test.cpp has permissions 0664
+2:43:37 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:37 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:37 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:39 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:39 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:39 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:39 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
+2:43:39 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:39 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:39 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing,source=null]
+2:43:39 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/#test.cpp#save#,source=null]
+2:43:39 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/test.cpp,source=null]
+2:43:39 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: test.cpp (~/programming/other/omdev testing/)
+2:43:39 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:43:41 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:43:41 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:43:42 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
+2:43:42 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:42 PM [AWT-EventQueue-0] [debug] FileVFS: /home/null/programming/other/omdev testing/test.cpp has permissions 0664
+2:43:42 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
+2:43:42 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:42 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:42 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing,source=null]
+2:43:42 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/#test.cpp#save#,source=null]
+2:43:42 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/test.cpp,source=null]
+2:43:42 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:43:43 PM [AWT-EventQueue-0] [message] BeanShell: Running script /home/null/test folder/omdev/compiler/jedit/settings/macros/Compile and Run.bsh
+2:43:43 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:43 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:43 PM [AWT-EventQueue-0] [debug] FileVFS: /home/null/programming/other/omdev testing/test.cpp has permissions 0664
+2:43:43 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:43 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:43 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:44 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:44 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:44 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:44 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:44 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,960x937,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:43:46 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
+2:43:46 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:46 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:46 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing,source=null]
+2:43:46 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/#test.cpp#save#,source=null]
+2:43:46 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/test.cpp,source=null]
+2:43:46 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: test.cpp (~/programming/other/omdev testing/)
+2:43:46 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:43:46 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/test folder/omdev/compiler/jedit/settings/perspective.xml" to "/home/null/test folder/omdev/compiler/jedit/settings/settings-backup/perspective.xml~1~"
+2:43:46 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:43:46 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:43:46 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:43:46 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: test.cpp (~/programming/other/omdev testing/)
+2:43:46 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:43:47 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:47 PM [AWT-EventQueue-0] [debug] FileVFS: /home/null/programming/other/omdev testing/test.cpp has permissions 0664
+2:43:47 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=test.cpp (~/programming/other/omdev testing/)]
+2:43:47 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:47 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=test.cpp (~/programming/other/omdev testing/)]
+2:43:47 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing,source=null]
+2:43:47 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/#test.cpp#save#,source=null]
+2:43:47 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/null/programming/other/omdev testing/test.cpp,source=null]
+2:43:50 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:43:50 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:43:50 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:44:38 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:44:38 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:44:38 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:44:39 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+2:44:43 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving /home/null/test folder/omdev/compiler/jedit/settings/perspective.xml
+2:44:43 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/test folder/omdev/compiler/jedit/settings/perspective.xml" to "/home/null/test folder/omdev/compiler/jedit/settings/settings-backup/perspective.xml~1~"
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+2:44:43 PM [AWT-EventQueue-0] [debug] BufferSet: 860572156: Buffer removed test.cpp (~/programming/other/omdev testing/)
+2:44:43 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:test.cpp (~/programming/other/omdev testing/) is in no bufferSet anymore, closing it
+2:44:43 PM [AWT-EventQueue-0] [debug] BufferSet: 860572156: removeBufferSetListener buffertabs.BufferTabs[]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=/home/null/test folder/omdev/compiler/jedit/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/log4j-1.2.14.jar]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/bcel-5.2.jar]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-lang-2.3.jar]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/xmlrpc-common-3.1.jar]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-io-2.4.jar]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/ws-commons-util-1.0.2.jar]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=5.1.2,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/Console.jar,class=console.ConsolePlugin]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.1.2,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/Console.jar,class=console.ConsolePlugin]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-net-1.4.1.jar]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-logging-1.1.jar]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=2.1,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=2.1,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-codec-1.3.jar]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/xmlrpc-client-3.1.jar]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-httpclient-3.0.1.jar]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=0.8,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/JakartaCommons.jar,class=jakartacommons.JakartaCommonsPlugin]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/commons-collections-3.2.jar]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.2.4,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+2:44:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.2.4,source=/home/null/test folder/omdev/compiler/jedit/settings/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+2:44:43 PM [AWT-EventQueue-0] [message] HistoryModel: Saving history
+2:44:43 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/test folder/omdev/compiler/jedit/settings/history" to "/home/null/test folder/omdev/compiler/jedit/settings/settings-backup/history~1~"
+2:44:43 PM [AWT-EventQueue-0] [message] BufferHistory: Saving /home/null/test folder/omdev/compiler/jedit/settings/recent.xml
+2:44:43 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/test folder/omdev/compiler/jedit/settings/recent.xml" to "/home/null/test folder/omdev/compiler/jedit/settings/settings-backup/recent.xml~1~"
+2:44:43 PM [AWT-EventQueue-0] [message] KillRing: Saving /home/null/test folder/omdev/compiler/jedit/settings/killring.xml
+2:44:43 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/test folder/omdev/compiler/jedit/settings/killring.xml" to "/home/null/test folder/omdev/compiler/jedit/settings/settings-backup/killring.xml~1~"
+2:44:43 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/null/test folder/omdev/compiler/jedit/settings/properties" to "/home/null/test folder/omdev/compiler/jedit/settings/settings-backup/properties~1~"

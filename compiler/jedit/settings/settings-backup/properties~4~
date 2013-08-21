@@ -1,5 +1,5 @@
 #jEdit properties
-#Wed Aug 21 11:19:36 AKDT 2013
+#Wed Aug 21 11:23:25 AKDT 2013
 useMD5forDirtyCalculation=false
 buffertabs.closeButton=true
 mode.c++.run.use-custom=false
@@ -18,7 +18,7 @@ tip.show=false
 buffertabs.icons=true
 firewall.socks.host=
 view.y=36
-view.x=0
+view.x=958
 view.toolbar.floatable=false
 suppressNotSavedConfirmUntitled=false
 buffer.encoding=UTF-8

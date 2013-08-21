@@ -6,11 +6,6 @@ console.Console console=view.getDockableWindowManager().getDockable("console");
 //Save Current File
 buffer.save(view,null,true);
 
-//Get File Paths
-String script_path=jEdit.getJEditHome();
-String code_directory=buffer.getDirectory();
-String code_path=buffer.getPath();
-
 //Get Executable Name
 String exe_name=buffer.getName();
 
@@ -18,9 +13,6 @@ if(exe_name.endsWith(".cpp"))
 	exe_name=exe_name.substring(0,exe_name.length()-4)+".exe";
 else
 	exe_name+=".exe";
-
-//CD To Project Directory
-runInSystemShell(view,"cd "+code_directory);
 
 //Determine OS Compile Script
 String script="linux.sh";
@@ -31,13 +23,38 @@ else if(OperatingSystem.isWindows())
 	script="windows.bat";
 
 //Create Script Command
-String compile_command=script_path+"/../compile_scripts/"+script+" "+script_path+"/../compile_scripts/errors.txt "+script_path+"/../compile_scripts/builds "+
-	script_path+"/../include "+code_path+" "+code_directory+exe_name;
+String scripts_path=jEdit.getJEditHome()+"/../compile_scripts/";
+String script_argument=scripts_path+script;
+String error_argument=scripts_path+"errors.txt";
+String build_argument=scripts_path+"builds";
+String include_argument=jEdit.getJEditHome()+"/../include";
+String code_argument=buffer.getPath();
+String exe_argument=buffer.getDirectory()+exe_name;
+
+//Create Script Commands (Unix)
+if(!OperatingSystem.isWindows())
+{
+	scripts_path=scripts_path.replace(" ","\\ ");
+	script_argument=script_argument.replace(" ","\\ ");
+	error_argument=error_argument.replace(" ","\\ ");
+	build_argument=build_argument.replace(" ","\\ ");
+	include_argument=include_argument.replace(" ","\\ ");
+	code_argument=code_argument.replace(" ","\\ ");
+	exe_argument=exe_argument.replace(" ","\\ ");
+}
+
+//CD To Project Directory
+runInSystemShell(view,"cd \""+buffer.getDirectory()+"\"");
+
+//Create Compile Command
+String compile_command="\""+script_argument+"\" \""+error_argument+"\" \""+build_argument+"\" \""+include_argument+
+	"\" \""+code_argument+"\" \""+exe_argument+"\"";
 
 //Run Compile Script Command
 runInSystemShell(view,compile_command);
 waitForConsole(view);
 
+//Wait a Second (For Windows...)
 try
 {
 	Thread.sleep(1000);
@@ -48,7 +65,7 @@ catch(InterruptedException e)
 }
 
 //Get Error Text
-Buffer error_buffer=jEdit.openTemporary(view,script_path+"/../compile_scripts/","errors.txt",false);
+Buffer error_buffer=jEdit.openTemporary(view,scripts_path,"errors.txt",false);
 String error_text="";
 
 if(error_buffer!=null)

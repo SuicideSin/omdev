@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE PERSPECTIVE SYSTEM "perspective.dtd">
 <PERSPECTIVE>
-<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/null/programming/other/omdev_testing/test.cpp</BUFFER>
-<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/null/programming/other/omdev_testing/test2.cpp</BUFFER>
 <VIEW PLAIN="FALSE">
 <PANES>
-"/home/null/programming/other/omdev_testing/test2.cpp" buffer "/home/null/programming/other/omdev_testing/test.cpp" buff "/home/null/programming/other/omdev_testing/test2.cpp" buff "global" bufferset
+"/home/null/programming/other/omdev testing/Untitled-1" buffer "global" bufferset
 </PANES>
-<GEOMETRY X="0" Y="36" WIDTH="962" HEIGHT="1044" EXT_STATE="0" />
+<GEOMETRY X="958" Y="36" WIDTH="962" HEIGHT="1044" EXT_STATE="0" />
 </VIEW>
 </PERSPECTIVE>

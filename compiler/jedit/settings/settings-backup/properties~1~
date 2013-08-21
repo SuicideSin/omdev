@@ -1,5 +1,5 @@
 #jEdit properties
-#Fri Aug 16 00:44:46 AKDT 2013
+#Wed Aug 21 12:17:17 AKDT 2013
 useMD5forDirtyCalculation=false
 buffertabs.closeButton=true
 mode.c++.run.use-custom=false
@@ -18,7 +18,7 @@ tip.show=false
 buffertabs.icons=true
 firewall.socks.host=
 view.y=36
-view.x=959
+view.x=958
 view.toolbar.floatable=false
 suppressNotSavedConfirmUntitled=false
 buffer.encoding=UTF-8
@@ -27,10 +27,10 @@ commando.visible.diff=true
 search.skipHidden.toggle=true
 buffertabs.close-tab-on.single-middle-click=true
 buffertabs.usePopup=true
-view.width=960
+view.width=962
 firewall.port=
 logviewer.height=299
-view.height=1043
+view.height=1044
 helpviewer.fontstyle=0
 search.ignoreCase.toggle=false
 search.width=565

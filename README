@@ -1,5 +1,5 @@
 OMDev (Orion Created a Tool Called OrionDev and Mike Copied the Idea...Developer)
-	Omdev is a free and opensource 2D (soon to be 3D) graphics platform for use with C++.
+	OMDev is a free, opensource, and 2D (soon to be 3D) graphics platform for use with C++.
 	It is currently packaged with a Java based text editor called JEdit for ease of use.
 
 	The goal of OMDev is to package easy to use C++ libraries for 2D Graphics, networking, and serial communication to create
@@ -10,9 +10,10 @@ THERE ARE SOME DEPENDENCIES!!!
 		You must have a Java Runtime Environment installed (JRE) to run JEdit.
 
 	Linux Dependencies:
-		You must have GCC and libx11 installed.  For the startup script message xmessage is used.
-		The library libx11 comes natively on most Linux distributions.
+		You must have GCC, libfreetype, libx11, and xmessage installed.
 		GCC is painless to compile from source, but usually there is a package manager you can use.
+		The library libfreetype is included on most Linux distributions.
+		The library libx11 comes natively on most Linux distributions.
 		The messaging program xmessage comes with the X windowing system...so if you have a GUI your set...
 
 		Examples:
@@ -21,10 +22,11 @@ THERE ARE SOME DEPENDENCIES!!!
 
 	Mac Dependencies:
 		Go to http://developer.apple.com/downloads/ and install the "Command Line Tools for Xcode".
-		You need to create an account and login before going to the link.
+		You need to create an account and login before going to the link above.
+		You will also need libfreetype, this is included on most Mac installations.
 
 	Windows Dependencies:
-		None, GCC has been prepackaged for you.
+		None, GCC has been prepackaged for you...because it really, really, really complicated to do...
 
 IMPORTANT!!!
 	After you have installed the dependencies startup your OS's shortcut in the OMDev directory.

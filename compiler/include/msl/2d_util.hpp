@@ -1,10 +1,21 @@
 //2D Utilities Header
 //	Created By:		Mike Moss
-//	Modified On:	03/12/2013
+//	Modified On:	12/02/2013
+
+//Required Libraries:
+//	ftgl
+//	freetype
+//	gl
+//	glew
+//	glu
+//	glut/freeglut
 
 //Begin Define Guards
 #ifndef MSL_2D_UTIL_H
 #define MSL_2D_UTIL_H
+
+//String Header
+#include <string>
 
 //MSL Namespace
 namespace msl
@@ -31,6 +42,34 @@ namespace msl
 
 	//Point Distance Function (Returns distance between two points)
 	double point_distance(const double x1,const double y1,const double x2,const double y2);
+
+	//Basic Shape Drawing Functions
+	void draw_point(const double x,const double y,const msl::color& color=msl::color(1,1,1,1));
+	void draw_line(const double x1,const double y1,const double x2,const double y2,const msl::color& color=msl::color(1,1,1,1));
+	void draw_triangle(const double x1,const double y1,const double x2,const double y2,const double x3,const double y3,
+		const bool fill,const msl::color& color=msl::color(1,1,1,1));
+	void draw_rectangle(const double x,const double y,const double width,const double height,const bool fill,const msl::color& color=msl::color(1,1,1,1));
+	void draw_rectangle_gradient(const double x,const double y,const double width,const double height,const bool fill,
+		const msl::color& color_top_left=msl::color(1,1,1,1),
+		const msl::color& color_top_right=msl::color(1,1,1,1),
+		const msl::color& color_bottom_right=msl::color(1,1,1,1),
+		const msl::color& color_bottom_left=msl::color(1,1,1,1));
+	void draw_circle(const double x,const double y,const double radius,const msl::color& color=msl::color(1,1,1,1));
+
+	//Text Set Font Function (Loads TrueType style fonts)
+	void set_text_font(const std::string& font);
+
+	//Text Set Size Function (In standard font sizes)
+	void set_text_size(const double size);
+
+	//Text Width Function (Returns width of text in pixels)
+	double text_width(const std::string& text);
+
+	//Text Height Function (Returns height of text in pixels)
+	double text_height(const std::string& text);
+
+	//Text Drawing Function
+	void draw_text(const double x,const double y,const std::string& text,const msl::color& color=msl::color(1,1,1,1));
 }
 
 //End Define Guards

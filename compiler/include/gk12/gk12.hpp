@@ -18,7 +18,7 @@
 #include <msl/serial.hpp>
 
 //Serial Sync Header
-//#include <SerialSync.hpp>
+#include <msl/serial_sync.hpp>
 
 //String Header
 #include <string>

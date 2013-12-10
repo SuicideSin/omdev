@@ -1,6 +1,6 @@
 //2D Graphics Header
 //	Created By:		Mike Moss
-//	Modified On:	05/19/2013
+//	Modified On:	11/22/2013
 
 //Required Libraries:
 //	gl
@@ -22,8 +22,8 @@
 //Glut Input Header
 #include "glut_input.hpp"
 
-//Font Header
-#include "font.hpp"
+//Glut UI Header
+#include "glut_ui.hpp"
 
 //Sprite Header
 #include "sprite.hpp"
@@ -54,17 +54,6 @@ namespace msl
 
 	//2D Stop Function
 	void stop_2d();
-
-	//Basic Shape Drawing Functions
-	void draw_point(const double x,const double y,const msl::color& color=msl::color(1,1,1,1));
-	void draw_line(const double x1,const double y1,const double x2,const double y2,const msl::color& color=msl::color(1,1,1,1));
-	void draw_triangle(const double x1,const double y1,const double x2,const double y2,const double x3,const double y3,
-		const msl::color& color=msl::color(1,1,1,1));
-	void draw_rectangle(const double x,const double y,const double width,const double height,const msl::color& color=msl::color(1,1,1,1));
-	void draw_circle(const double x,const double y,const double radius,const msl::color& color=msl::color(1,1,1,1));
-
-	//Text Drawing Function
-	void draw_text(const double x,const double y,const std::string& text,const msl::color& color=msl::color(1,1,1,1));
 }
 
 //End Define Guards

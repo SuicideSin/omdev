@@ -1,9 +1,9 @@
 //Web Server Header
 //	Created By:		Mike Moss
-//	Modified On:	08/09/2013
+//	Modified On:	12/09/2013
 
 //Required Libraries:
-//	wsock32 (windows only)
+//	Ws2_32 (windows only)
 
 //Begin Define Guards
 #ifndef MSL_WEBSERVER_H
@@ -44,7 +44,7 @@ namespace msl
 			//Update Function (Connects Clients and Runs Web Server)
 			void update();
 
-			//Close Function (Closes Server)
+			//Close Function (Closes Server) (Warning!!!  This doesn't close all the threads, there is no way to kill a running joined thread in C++11...yet...)
 			void close();
 
 		private:
@@ -65,13 +65,16 @@ namespace msl
 /*
 //Basic Web Server Source
 //	Created By:		Mike Moss
-//	Modified On:	06/20/2013
+//	Modified On:	09/24/2013
 
 //IO Stream Header
 #include <iostream>
 
 //Socket Header
 #include "msl/socket.hpp"
+
+//Socket Utility Header
+#include "msl/socket_util.hpp"
 
 //String Stream Header
 #include <sstream>
@@ -127,11 +130,17 @@ bool service_client(msl::socket& client,const std::string& message)
 	istr>>request;
 	istr>>request;
 
+	//Translate Request
+	request=msl::http_to_ascii(request);
+
 	//Check For a Custom Request
 	if(request=="/custom_request")
 	{
 		//Send Custom Message
 		client<<"custom request detected!";
+
+		//Close Client Connection (Not a Keep-Alive Request)
+		client.close();
 
 		//Return True (We serviced the client)
 		return true;

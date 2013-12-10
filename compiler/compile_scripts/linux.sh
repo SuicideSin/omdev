@@ -13,5 +13,6 @@ done
 #INCLUDES=-I"${arg[3]}" -I"${arg[3]}/gk12" -I"${arg[3]}/glut"
 #OUT=-o "${arg[5]}"
 
-g++ "${arg[4]}" "${arg[2]}"/*.o -lGL -lGLU -lX11 -fpermissive -w -Wno-write-strings -Wno-unused-result -Wno-format \
--O -I"${arg[3]}" -I"${arg[3]}/gk12" -I"${arg[3]}/glut" -o "${arg[5]}" 2> "${arg[1]}"
+g++ "${arg[4]}" "${arg[2]}"/*.o -lfreetype -lGL -lGLU -lX11 -fpermissive -w -Wno-write-strings -Wno-unused-result -Wno-format \
+-O -I"${arg[3]}" -I"${arg[3]}/ftgl" -I"${arg[3]}/gk12" -I"${arg[3]}/glut" -o "${arg[5]}"
+# 2> "${arg[1]}"
